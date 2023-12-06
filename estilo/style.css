@@ -36,19 +36,42 @@ section {
 section.imagem {
     background-color: rgb(2, 2, 102);
     color: white;
+    box-shadow: inset 0px 6px 3px 0px rgba(0, 0, 0, 0.359);
+    background-attachment: fixed;
     
 
 }
 
 section.imagem p {
-    background-color: rgba(0, 0, 0, 0.195);
+    background-color: rgba(0, 0, 0, 0.474);
     width: 400px;
+    text-shadow: 1px 1px 0px black;
+    
 }
 
 section.normal {
     background-color: rgb(2, 102, 27);
     color: white;
 
+}
+
+section#img01 {
+    background-image: url('../imagens/pinkfloyd.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url('../imagens/universe.jpg');
+    background-size: cover;
+}
+
+section#img03 {
+    background-image: url('../imagens/pinkfoyd2.jpg');
+    background-size: cover;
+    background-position: center center
+    
+    
 }
 
 header {
